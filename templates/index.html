@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title></title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='stylesheet.css') }}">
+        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    </head>
+    <body>
+    <div class="container">
+        {% for f in files %}
+        <div style="text-align: center;margin-right:20px;">
+            <p class="label">{{ f.split(".")[0] }}</p>
+            <div onclick="playSound('{{ f }}')" class="select-button"></div>
+        </div>
+        {% endfor %}
+    </div>
+
+    <script type="text/javascript">
+
+let playSound = (filename) => {
+    fetch(`/play_sound/${filename}`);
+}
+
+    </script>
+    </body>
+</html>
