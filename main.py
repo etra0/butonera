@@ -21,3 +21,6 @@ def play_sound(filename):
     command = "mpv {}".format("static/sounds/" + filename)
     process = subprocess.Popen(command.split(), stdout=subprocess.PIPE)
     return filename
+
+if __name__ == '__main__':
+    app.run(host="192.168.11.103")
