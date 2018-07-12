@@ -1,4 +1,4 @@
-from flask import Flask, render_template
+from flask import Flask, render_template, jsonify
 import os
 import subprocess
 
@@ -15,6 +15,11 @@ def get_sounds():
     files = [f for f in os.listdir("./static/sounds/") if f.endswith(extensions)]
     return files
 
+@app.route("/get_sounds/")
+def api_get_sounds():
+    files = get_sounds()
+    return jsonify(files)
+
 
 @app.route("/play_sound/<filename>")
 def play_sound(filename):
@@ -23,4 +28,4 @@ def play_sound(filename):
     return filename
 
 if __name__ == '__main__':
-    app.run(host="192.168.11.103")
+    app.run(host="192.168.0.14")
