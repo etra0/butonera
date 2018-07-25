@@ -1,0 +1,74 @@
+[
+    {
+        "merged": "/Users/Etra/Documents/Universidad/Programacion/Uttons/android/app/build/intermediates/res/merged/release/anim/catalyst_push_up_out.xml",
+        "source": "/Users/Etra/.android/build-cache/516d2c087d39b9d9af705f7b5c5329b57d64cc6c/output/res/anim/catalyst_push_up_out.xml"
+    },
+    {
+        "merged": "/Users/Etra/Documents/Universidad/Programacion/Uttons/android/app/build/intermediates/res/merged/release/anim/catalyst_slide_down.xml",
+        "source": "/Users/Etra/.android/build-cache/516d2c087d39b9d9af705f7b5c5329b57d64cc6c/output/res/anim/catalyst_slide_down.xml"
+    },
+    {
+        "merged": "/Users/Etra/Documents/Universidad/Programacion/Uttons/android/app/build/intermediates/res/merged/release/anim/catalyst_fade_out.xml",
+        "source": "/Users/Etra/.android/build-cache/516d2c087d39b9d9af705f7b5c5329b57d64cc6c/output/res/anim/catalyst_fade_out.xml"
+    },
+    {
+        "merged": "/Users/Etra/Documents/Universidad/Programacion/Uttons/android/app/build/intermediates/res/merged/release/anim/catalyst_slide_up.xml",
+        "source": "/Users/Etra/.android/build-cache/516d2c087d39b9d9af705f7b5c5329b57d64cc6c/output/res/anim/catalyst_slide_up.xml"
+    },
+    {
+        "merged": "/Users/Etra/Documents/Universidad/Programacion/Uttons/android/app/build/intermediates/res/merged/release/anim/abc_slide_out_bottom.xml",
+        "source": "/Users/Etra/.android/build-cache/e0975a60e896760b140d66176b584fde9dbc25ce/output/res/anim/abc_slide_out_bottom.xml"
+    },
+    {
+        "merged": "/Users/Etra/Documents/Universidad/Programacion/Uttons/android/app/build/intermediates/res/merged/release/anim/abc_fade_in.xml",
+        "source": "/Users/Etra/.android/build-cache/e0975a60e896760b140d66176b584fde9dbc25ce/output/res/anim/abc_fade_in.xml"
+    },
+    {
+        "merged": "/Users/Etra/Documents/Universidad/Programacion/Uttons/android/app/build/intermediates/res/merged/release/anim/tooltip_exit.xml",
+        "source": "/Users/Etra/.android/build-cache/e0975a60e896760b140d66176b584fde9dbc25ce/output/res/anim/tooltip_exit.xml"
+    },
+    {
+        "merged": "/Users/Etra/Documents/Universidad/Programacion/Uttons/android/app/build/intermediates/res/merged/release/anim/catalyst_fade_in.xml",
+        "source": "/Users/Etra/.android/build-cache/516d2c087d39b9d9af705f7b5c5329b57d64cc6c/output/res/anim/catalyst_fade_in.xml"
+    },
+    {
+        "merged": "/Users/Etra/Documents/Universidad/Programacion/Uttons/android/app/build/intermediates/res/merged/release/anim/abc_slide_in_top.xml",
+        "source": "/Users/Etra/.android/build-cache/e0975a60e896760b140d66176b584fde9dbc25ce/output/res/anim/abc_slide_in_top.xml"
+    },
+    {
+        "merged": "/Users/Etra/Documents/Universidad/Programacion/Uttons/android/app/build/intermediates/res/merged/release/anim/abc_popup_enter.xml",
+        "source": "/Users/Etra/.android/build-cache/e0975a60e896760b140d66176b584fde9dbc25ce/output/res/anim/abc_popup_enter.xml"
+    },
+    {
+        "merged": "/Users/Etra/Documents/Universidad/Programacion/Uttons/android/app/build/intermediates/res/merged/release/anim/catalyst_push_up_in.xml",
+        "source": "/Users/Etra/.android/build-cache/516d2c087d39b9d9af705f7b5c5329b57d64cc6c/output/res/anim/catalyst_push_up_in.xml"
+    },
+    {
+        "merged": "/Users/Etra/Documents/Universidad/Programacion/Uttons/android/app/build/intermediates/res/merged/release/anim/abc_slide_out_top.xml",
+        "source": "/Users/Etra/.android/build-cache/e0975a60e896760b140d66176b584fde9dbc25ce/output/res/anim/abc_slide_out_top.xml"
+    },
+    {
+        "merged": "/Users/Etra/Documents/Universidad/Programacion/Uttons/android/app/build/intermediates/res/merged/release/anim/abc_popup_exit.xml",
+        "source": "/Users/Etra/.android/build-cache/e0975a60e896760b140d66176b584fde9dbc25ce/output/res/anim/abc_popup_exit.xml"
+    },
+    {
+        "merged": "/Users/Etra/Documents/Universidad/Programacion/Uttons/android/app/build/intermediates/res/merged/release/anim/abc_fade_out.xml",
+        "source": "/Users/Etra/.android/build-cache/e0975a60e896760b140d66176b584fde9dbc25ce/output/res/anim/abc_fade_out.xml"
+    },
+    {
+        "merged": "/Users/Etra/Documents/Universidad/Programacion/Uttons/android/app/build/intermediates/res/merged/release/anim/abc_slide_in_bottom.xml",
+        "source": "/Users/Etra/.android/build-cache/e0975a60e896760b140d66176b584fde9dbc25ce/output/res/anim/abc_slide_in_bottom.xml"
+    },
+    {
+        "merged": "/Users/Etra/Documents/Universidad/Programacion/Uttons/android/app/build/intermediates/res/merged/release/anim/tooltip_enter.xml",
+        "source": "/Users/Etra/.android/build-cache/e0975a60e896760b140d66176b584fde9dbc25ce/output/res/anim/tooltip_enter.xml"
+    },
+    {
+        "merged": "/Users/Etra/Documents/Universidad/Programacion/Uttons/android/app/build/intermediates/res/merged/release/anim/abc_shrink_fade_out_from_bottom.xml",
+        "source": "/Users/Etra/.android/build-cache/e0975a60e896760b140d66176b584fde9dbc25ce/output/res/anim/abc_shrink_fade_out_from_bottom.xml"
+    },
+    {
+        "merged": "/Users/Etra/Documents/Universidad/Programacion/Uttons/android/app/build/intermediates/res/merged/release/anim/abc_grow_fade_in_from_bottom.xml",
+        "source": "/Users/Etra/.android/build-cache/e0975a60e896760b140d66176b584fde9dbc25ce/output/res/anim/abc_grow_fade_in_from_bottom.xml"
+    }
+]

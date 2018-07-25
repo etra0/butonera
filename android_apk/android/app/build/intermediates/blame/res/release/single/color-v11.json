@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/Etra/Documents/Universidad/Programacion/Uttons/android/app/build/intermediates/res/merged/release/color-v11/abc_background_cache_hint_selector_material_light.xml",
+        "source": "/Users/Etra/.android/build-cache/e0975a60e896760b140d66176b584fde9dbc25ce/output/res/color-v11/abc_background_cache_hint_selector_material_light.xml"
+    },
+    {
+        "merged": "/Users/Etra/Documents/Universidad/Programacion/Uttons/android/app/build/intermediates/res/merged/release/color-v11/abc_background_cache_hint_selector_material_dark.xml",
+        "source": "/Users/Etra/.android/build-cache/e0975a60e896760b140d66176b584fde9dbc25ce/output/res/color-v11/abc_background_cache_hint_selector_material_dark.xml"
+    }
+]

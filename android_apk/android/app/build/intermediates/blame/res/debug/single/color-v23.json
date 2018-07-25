@@ -1,0 +1,38 @@
+[
+    {
+        "merged": "/Users/Etra/Documents/Universidad/Programacion/Uttons/android/app/build/intermediates/res/merged/debug/color-v23/abc_tint_edittext.xml",
+        "source": "/Users/Etra/.android/build-cache/e0975a60e896760b140d66176b584fde9dbc25ce/output/res/color-v23/abc_tint_edittext.xml"
+    },
+    {
+        "merged": "/Users/Etra/Documents/Universidad/Programacion/Uttons/android/app/build/intermediates/res/merged/debug/color-v23/abc_tint_default.xml",
+        "source": "/Users/Etra/.android/build-cache/e0975a60e896760b140d66176b584fde9dbc25ce/output/res/color-v23/abc_tint_default.xml"
+    },
+    {
+        "merged": "/Users/Etra/Documents/Universidad/Programacion/Uttons/android/app/build/intermediates/res/merged/debug/color-v23/abc_tint_btn_checkable.xml",
+        "source": "/Users/Etra/.android/build-cache/e0975a60e896760b140d66176b584fde9dbc25ce/output/res/color-v23/abc_tint_btn_checkable.xml"
+    },
+    {
+        "merged": "/Users/Etra/Documents/Universidad/Programacion/Uttons/android/app/build/intermediates/res/merged/debug/color-v23/abc_btn_colored_text_material.xml",
+        "source": "/Users/Etra/.android/build-cache/e0975a60e896760b140d66176b584fde9dbc25ce/output/res/color-v23/abc_btn_colored_text_material.xml"
+    },
+    {
+        "merged": "/Users/Etra/Documents/Universidad/Programacion/Uttons/android/app/build/intermediates/res/merged/debug/color-v23/abc_tint_seek_thumb.xml",
+        "source": "/Users/Etra/.android/build-cache/e0975a60e896760b140d66176b584fde9dbc25ce/output/res/color-v23/abc_tint_seek_thumb.xml"
+    },
+    {
+        "merged": "/Users/Etra/Documents/Universidad/Programacion/Uttons/android/app/build/intermediates/res/merged/debug/color-v23/abc_btn_colored_borderless_text_material.xml",
+        "source": "/Users/Etra/.android/build-cache/e0975a60e896760b140d66176b584fde9dbc25ce/output/res/color-v23/abc_btn_colored_borderless_text_material.xml"
+    },
+    {
+        "merged": "/Users/Etra/Documents/Universidad/Programacion/Uttons/android/app/build/intermediates/res/merged/debug/color-v23/abc_color_highlight_material.xml",
+        "source": "/Users/Etra/.android/build-cache/e0975a60e896760b140d66176b584fde9dbc25ce/output/res/color-v23/abc_color_highlight_material.xml"
+    },
+    {
+        "merged": "/Users/Etra/Documents/Universidad/Programacion/Uttons/android/app/build/intermediates/res/merged/debug/color-v23/abc_tint_spinner.xml",
+        "source": "/Users/Etra/.android/build-cache/e0975a60e896760b140d66176b584fde9dbc25ce/output/res/color-v23/abc_tint_spinner.xml"
+    },
+    {
+        "merged": "/Users/Etra/Documents/Universidad/Programacion/Uttons/android/app/build/intermediates/res/merged/debug/color-v23/abc_tint_switch_track.xml",
+        "source": "/Users/Etra/.android/build-cache/e0975a60e896760b140d66176b584fde9dbc25ce/output/res/color-v23/abc_tint_switch_track.xml"
+    }
+]

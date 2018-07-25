@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Users/Etra/Documents/Universidad/Programacion/Uttons/android/app/build/intermediates/res/merged/release/drawable-v21/abc_action_bar_item_background_material.xml",
+        "source": "/Users/Etra/.android/build-cache/e0975a60e896760b140d66176b584fde9dbc25ce/output/res/drawable-v21/abc_action_bar_item_background_material.xml"
+    },
+    {
+        "merged": "/Users/Etra/Documents/Universidad/Programacion/Uttons/android/app/build/intermediates/res/merged/release/drawable-v21/abc_btn_colored_material.xml",
+        "source": "/Users/Etra/.android/build-cache/e0975a60e896760b140d66176b584fde9dbc25ce/output/res/drawable-v21/abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "/Users/Etra/Documents/Universidad/Programacion/Uttons/android/app/build/intermediates/res/merged/release/drawable-v21/notification_action_background.xml",
+        "source": "/Users/Etra/.android/build-cache/ee48e4dfd19362be1e5b7a1c4d8c11c3210db2b8/output/res/drawable-v21/notification_action_background.xml"
+    },
+    {
+        "merged": "/Users/Etra/Documents/Universidad/Programacion/Uttons/android/app/build/intermediates/res/merged/release/drawable-v21/abc_edit_text_material.xml",
+        "source": "/Users/Etra/.android/build-cache/e0975a60e896760b140d66176b584fde9dbc25ce/output/res/drawable-v21/abc_edit_text_material.xml"
+    }
+]

@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Users/Etra/Documents/Universidad/Programacion/Uttons/android/app/build/intermediates/res/merged/debug/layout-v21/notification_template_custom_big.xml",
+        "source": "/Users/Etra/.android/build-cache/ee48e4dfd19362be1e5b7a1c4d8c11c3210db2b8/output/res/layout-v21/notification_template_custom_big.xml"
+    },
+    {
+        "merged": "/Users/Etra/Documents/Universidad/Programacion/Uttons/android/app/build/intermediates/res/merged/debug/layout-v21/notification_template_icon_group.xml",
+        "source": "/Users/Etra/.android/build-cache/ee48e4dfd19362be1e5b7a1c4d8c11c3210db2b8/output/res/layout-v21/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "/Users/Etra/Documents/Universidad/Programacion/Uttons/android/app/build/intermediates/res/merged/debug/layout-v21/notification_action.xml",
+        "source": "/Users/Etra/.android/build-cache/ee48e4dfd19362be1e5b7a1c4d8c11c3210db2b8/output/res/layout-v21/notification_action.xml"
+    },
+    {
+        "merged": "/Users/Etra/Documents/Universidad/Programacion/Uttons/android/app/build/intermediates/res/merged/debug/layout-v21/notification_action_tombstone.xml",
+        "source": "/Users/Etra/.android/build-cache/ee48e4dfd19362be1e5b7a1c4d8c11c3210db2b8/output/res/layout-v21/notification_action_tombstone.xml"
+    }
+]
