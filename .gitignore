@@ -1,3 +1,5 @@
 venv
 */.DS_*
 __pycache__
+.idea
+tbot/secret_token/__init__.py

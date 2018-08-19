@@ -1,6 +1,8 @@
 from flask import Flask, render_template, jsonify
 import os
 import subprocess
+from threading import Thread
+import tbot
 
 app = Flask(__name__)
 
@@ -28,4 +30,6 @@ def play_sound(filename):
     return filename
 
 if __name__ == '__main__':
-    app.run(host="192.168.0.14")
+    ip = "localhost"
+    tbot.run_tbot(ip)
+    app.run(host=ip)
