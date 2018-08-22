@@ -11,6 +11,17 @@ def get_sounds():
 def run_tbot(ip):
     updater = ext.Updater(token=token)
 
+    for key, value in get_sounds().items():
+        updater.dispatcher.add_handler(
+            ext.CommandHandler(
+                key, lambda bot, update: requests.get(
+                    'http://{}:5000/play_sound/{}'.format(
+                        ip, value
+                    )
+                )
+            )
+        )
+
     def start(bot, update):
         keyboard = [
             [InlineKeyboardButton(key, callback_data=value)] for key, value in get_sounds().items()
