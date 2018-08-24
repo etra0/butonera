@@ -8,23 +8,25 @@ def get_sounds():
     extensions = ('mp3', 'wav', 'ogg')
     return {f.split('.')[0]: f for f in os.listdir("./static/sounds/") if f.endswith(extensions)}
 
+
 def run_tbot(ip):
     updater = ext.Updater(token=token)
 
-    for key, value in get_sounds().items():
-        updater.dispatcher.add_handler(
-            ext.CommandHandler(
-                key, lambda bot, update: requests.get(
-                    'http://{}:5000/play_sound/{}'.format(
-                        ip, value
-                    )
-                )
-            )
-        )
+    # TODO: fix this
+    # for key, value in get_sounds().items():
+    #     updater.dispatcher.add_handler(
+    #         ext.CommandHandler(
+    #             key, lambda bot, update: requests.get(
+    #                 'http://{}:5000/play_sound/{}'.format(
+    #                     ip, value
+    #                 )
+    #             )
+    #         )
+    #     )
 
     def start(bot, update):
         keyboard = [
-            [InlineKeyboardButton(key, callback_data=value)] for key, value in get_sounds().items()
+            [InlineKeyboardButton(key, callback_data=value)] for key, value in sorted(get_sounds().items())
         ]
         reply_markup = InlineKeyboardMarkup(keyboard)
         update.message.reply_text('Buttons', reply_markup=reply_markup)
