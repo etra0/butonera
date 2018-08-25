@@ -15,7 +15,7 @@ def index():
 def get_sounds():
     extensions = ('mp3', 'wav', 'ogg')
     files = [f for f in os.listdir("./static/sounds/") if f.endswith(extensions)]
-    return files
+    return sorted(files)
 
 @app.route("/get_sounds/")
 def api_get_sounds():
