@@ -1,10 +1,10 @@
 from flask import Flask, render_template, jsonify
 import os
 import subprocess
-from threading import Thread
 import tbot
 
 app = Flask(__name__)
+
 
 @app.route("/")
 def index():
@@ -16,6 +16,7 @@ def get_sounds():
     extensions = ('mp3', 'wav', 'ogg')
     files = [f for f in os.listdir("./static/sounds/") if f.endswith(extensions)]
     return sorted(files)
+
 
 @app.route("/get_sounds/")
 def api_get_sounds():

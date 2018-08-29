@@ -11,25 +11,24 @@ def get_sounds():
 
 def run_tbot(ip):
     updater = ext.Updater(token=token)
+    sounds = get_sounds()
+    sound_keys = sorted(list(sounds.keys()))
 
-    # TODO: fix this
-    # for key, value in get_sounds().items():
-    #     updater.dispatcher.add_handler(
-    #         ext.CommandHandler(
-    #             key, lambda bot, update: requests.get(
-    #                 'http://{}:5000/play_sound/{}'.format(
-    #                     ip, value
-    #                 )
-    #             )
-    #         )
-    #     )
+    def generic(bot, update):
+        sound = sounds[update.message.text[1:]]
+        requests.get('http://{}:5000/play_sound/{}'.format(ip, sound))
+        bot.send_message(chat_id=update.message.chat_id, text='sent: {}'.format(sound))
 
-    def start(bot, update):
+    def play(bot, update):
         keyboard = [
-            [InlineKeyboardButton(key, callback_data=value)] for key, value in sorted(get_sounds().items())
+            [
+                InlineKeyboardButton(sound_keys[2*i], callback_data=sounds[sound_keys[2*i]]),
+                InlineKeyboardButton(sound_keys[2*i+1], callback_data=sounds[sound_keys[2*i+1]]) \
+                if 2*i+1 < len(sound_keys) else InlineKeyboardButton('', callback_data=sounds[sound_keys[2*i]]),
+            ] for i in range((len(sound_keys) +1 ) //2)
         ]
         reply_markup = InlineKeyboardMarkup(keyboard)
-        update.message.reply_text('Buttons', reply_markup=reply_markup)
+        update.message.reply_text('Buttons:', reply_markup=reply_markup)
 
     def button(bot, update):
         query = update.callback_query
@@ -39,6 +38,8 @@ def run_tbot(ip):
                               message_id=query.message.message_id)
 
     updater.dispatcher.add_handler(ext.CallbackQueryHandler(button))
-    updater.dispatcher.add_handler(ext.CommandHandler('start', start))
+    updater.dispatcher.add_handler(ext.CommandHandler('play', play))
+    for key in sound_keys:
+        updater.dispatcher.add_handler(ext.CommandHandler(key, generic))
 
     updater.start_polling()
