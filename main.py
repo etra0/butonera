@@ -6,7 +6,6 @@ import netifaces as ni
 
 app = Flask(__name__)
 
-
 @app.route("/")
 def index():
     files = get_sounds()
@@ -25,8 +24,16 @@ def api_get_sounds():
     return jsonify(files)
 
 
+api_data = {key:0 for key in get_sounds()}
+
+@app.route("/data_api/")
+def api_get_data():
+    return jsonify(api_data)
+
+
 @app.route("/play_sound/<filename>")
 def play_sound(filename):
+    api_data[filename] += 1
     command = "mpv {}".format("static/sounds/" + filename)
     process = subprocess.Popen(command.split(), stdout=subprocess.PIPE)
     return filename
